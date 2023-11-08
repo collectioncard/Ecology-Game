@@ -1162,7 +1162,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 2.6163068001160803,
+        "zoomFactor": 0.7669649888474007,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3495,6 +3495,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "temp",
+          "persistentUuid": "e107417d-bbef-4c8d-8b4e-1a45b0d2ba2e",
+          "width": 0,
+          "x": 455,
+          "y": 281,
+          "zOrder": 2015,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3516,6 +3531,18 @@
               "name": "CompostCount",
               "type": "number",
               "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 16
+            },
+            {
+              "folded": true,
+              "name": "Hunger",
+              "type": "number",
+              "value": 16
             }
           ],
           "effects": [],
@@ -5033,7 +5060,14 @@
           "name": "FruitHead",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -6706,7 +6740,7 @@
           "behaviors": [],
           "content": {
             "PreviousHighValueDuration": 0,
-            "ShowLabel": false,
+            "ShowLabel": true,
             "BarTopPadding": 4,
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
@@ -7024,6 +7058,27 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "temp",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7127,6 +7182,9 @@
           },
           {
             "objectName": "CompostCounter"
+          },
+          {
+            "objectName": "temp"
           }
         ]
       },
@@ -7200,6 +7258,15 @@
               "parameters": [
                 "",
                 "\"Collision\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"playerTime\""
               ]
             }
           ],
@@ -7526,6 +7593,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7938,6 +8006,15 @@
                     "=",
                     "Player.FruitCount"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "\"regrow\""
+                  ]
                 }
               ]
             },
@@ -8047,6 +8124,15 @@
                     "=",
                     "Player.CompostCount"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "\"regrow\""
+                  ]
                 }
               ]
             },
@@ -8129,6 +8215,375 @@
                     "Text",
                     "=",
                     "Player.FruitCount"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Eating Mechanic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FruitCount",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "k"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Hunger",
+                    "<",
+                    "16"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FruitCount",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Hunger",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "GreenFlatBar",
+                    "=",
+                    "Player.Hunger",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BerryCounter",
+                    "Text",
+                    "=",
+                    "Player.FruitCount"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Regrow mechanic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "\"regrow\"",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "growVal",
+                    "=",
+                    "RandomInRange(0, 100000)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "temp",
+                    "Text",
+                    "=",
+                    "FruitHead.growVal"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "\"regrow\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "FruitHead",
+                            "growVal",
+                            "<=",
+                            "2000"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "FruitHead",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "FruitHead",
+                            "growVal",
+                            ">",
+                            "2000"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "FruitHead",
+                        "\"regrow\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Health System",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Hunger",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Hunger",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "GreenFlatBar",
+                    "=",
+                    "Player.Hunger",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Hunger",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    "=",
+                    "Player.Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\""
                   ]
                 }
               ]
