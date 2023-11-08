@@ -426,7 +426,7 @@
         "alwaysLoaded": false,
         "file": "assets/Road1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Road1.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Road1.png",
         "smoothed": false,
         "userAdded": false
@@ -931,6 +931,37 @@
         "name": "Fruit head43",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/farmland.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\farmland.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_farmland.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\farmland",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/4037e5e9b8a1ede7cb20a326256ce5d9e9a5d94715303743595e97375ceaabaf_Flat Bar Green Fill Bar.png",
+          "name": "Flat Bar Green Fill Bar.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1021,7 +1052,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.9411591872402811,
+        "zoomFactor": 1.2201643882660955,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2450,15 +2481,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
           "layer": "",
           "name": "FruitHead",
           "persistentUuid": "e02372b1-140a-40ab-a8fe-a53def22b396",
-          "width": 0,
-          "x": 406,
-          "y": 221,
-          "zOrder": 510,
+          "width": 13,
+          "x": 453,
+          "y": 214,
+          "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2669,6 +2701,581 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "39790d94-fc38-429b-98d7-3e0c34f3d3ab",
+          "width": 19,
+          "x": 450,
+          "y": 212,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "f9871c4f-76e0-4540-8081-d03683ac93b6",
+          "width": 19,
+          "x": 415,
+          "y": 212,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "f004ff7d-f8fa-4bfb-87c9-f3c42abbd02c",
+          "width": 13,
+          "x": 418,
+          "y": 214,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e6fd118e-7d80-40bc-b065-befcd5b18a32",
+          "width": 19,
+          "x": 382,
+          "y": 212,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "e500f100-9633-492b-a5dc-d10fc95140b6",
+          "width": 13,
+          "x": 385,
+          "y": 214,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "c665331e-e092-4c7a-a055-a794f12cf5d5",
+          "width": 19,
+          "x": 350,
+          "y": 212,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "7091bfea-deeb-44c5-8315-df0782f5286d",
+          "width": 13,
+          "x": 353,
+          "y": 214,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "252773b6-3d44-446f-a01b-2c8dcbea3f61",
+          "width": 19,
+          "x": 314,
+          "y": 212,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "f39467b2-3a92-4de4-9918-ff595e3ee337",
+          "width": 13,
+          "x": 317,
+          "y": 214,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "a1c6e6c8-32f6-42ec-b182-68e0e815bf9b",
+          "width": 19,
+          "x": 278,
+          "y": 250,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "f0b27d2c-3432-4b51-9c5e-d28e32d5b380",
+          "width": 13,
+          "x": 281,
+          "y": 252,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "06da611d-b36e-43ae-b1c5-be5076e8ef98",
+          "width": 19,
+          "x": 314,
+          "y": 250,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "51da1691-6d53-4cb6-8c6c-5cd114445e3a",
+          "width": 13,
+          "x": 317,
+          "y": 252,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "4324e84f-2527-4687-8d36-0d8bc99e2796",
+          "width": 19,
+          "x": 350,
+          "y": 250,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "4242994e-dbef-42d0-b9e0-3d856c119709",
+          "width": 13,
+          "x": 353,
+          "y": 252,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "f24c4631-654b-4aa5-9d92-4444515d8c48",
+          "width": 19,
+          "x": 382,
+          "y": 250,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "8bbfbae1-f8d3-400e-9244-1d911d5ea234",
+          "width": 13,
+          "x": 385,
+          "y": 252,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "a088d167-be1d-4890-9985-f7c3d32d55c8",
+          "width": 19,
+          "x": 415,
+          "y": 250,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "974b5761-227e-441a-a30f-d3a92d5f98c6",
+          "width": 13,
+          "x": 418,
+          "y": 252,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "1388a6a1-29c7-460a-b1b2-878100e4c856",
+          "width": 19,
+          "x": 450,
+          "y": 250,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "80aa8208-7458-483f-b089-f47a7c384922",
+          "width": 13,
+          "x": 453,
+          "y": 252,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "3255755b-6a67-497f-8ee7-837be76aa5d8",
+          "width": 19,
+          "x": 278,
+          "y": 212,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 13,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "8ebc8521-b28b-45aa-a30b-fbb0994e2832",
+          "width": 13,
+          "x": 281,
+          "y": 214,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "c4f6d1ad-5443-4641-aae1-de9a53940922",
+          "width": 15,
+          "x": 452,
+          "y": 252,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "8bc28f51-a4f8-4b1b-9f5a-13e49a6ba486",
+          "width": 15,
+          "x": 452,
+          "y": 214,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "5755d1a9-fc3d-4961-a811-77904228e78b",
+          "width": 15,
+          "x": 417,
+          "y": 214,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "79fb3430-b7f7-4c93-baa6-9932cc53ceb4",
+          "width": 15,
+          "x": 384,
+          "y": 214,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "ff90a889-b944-4b5a-a489-ee0d9cf5c7ea",
+          "width": 15,
+          "x": 352,
+          "y": 214,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "6c7655bf-f4b7-4c9f-9490-127cf7eb1fed",
+          "width": 15,
+          "x": 316,
+          "y": 214,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "d02b694c-4de1-4c25-a1f2-e5b0e29f5208",
+          "width": 15,
+          "x": 280,
+          "y": 214,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "b7ad8170-22be-4724-8099-5783a7b82681",
+          "width": 15,
+          "x": 280,
+          "y": 252,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "5a70bd4a-5944-4a66-a020-4b7c5f2fc32a",
+          "width": 15,
+          "x": 316,
+          "y": 252,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "a3bea2c7-671b-41c2-a44a-cc92b547392d",
+          "width": 15,
+          "x": 352,
+          "y": 252,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "0092ed1a-ede5-4b8d-83fa-d9ec890a3b83",
+          "width": 15,
+          "x": 384,
+          "y": 252,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "134c03b1-f2db-4a36-9734-f3048a3cc984",
+          "width": 15,
+          "x": 417,
+          "y": 252,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "GreenFlatBar",
+          "persistentUuid": "8724a072-7257-4741-9ea9-e94310d04277",
+          "width": 0,
+          "x": 707,
+          "y": 26,
+          "zOrder": 2005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2678,7 +3285,14 @@
           "name": "Player",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "FruitCount",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -5796,6 +6410,132 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\farmland",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\farmland",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
+          "name": "GreenFlatBar",
+          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "PreviousHighValueDuration": 0,
+            "ShowLabel": true,
+            "BarTopPadding": 4,
+            "BarBottomPadding": 6,
+            "BarLeftPadding": 4,
+            "BarRightPadding": 4,
+            "MaxValue": 16,
+            "InitialValue": 0
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 6,
+              "height": 34,
+              "leftMargin": 4,
+              "rightMargin": 4,
+              "texture": "Flat Bar White Border.png",
+              "tiled": true,
+              "topMargin": 6,
+              "width": 224
+            },
+            "Buffer": {
+              "bottomMargin": 0,
+              "height": 24,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Flat Bar Green Fill Bar.png",
+              "tiled": true,
+              "topMargin": 0,
+              "width": 24
+            },
+            "FillBar": {
+              "bottomMargin": 0,
+              "height": 24,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Flat Bar Green Fill Bar.png",
+              "tiled": true,
+              "topMargin": 0,
+              "width": 24
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "8 / 16",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 16,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5875,6 +6615,12 @@
           },
           {
             "objectName": "FruitHead"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "GreenFlatBar"
           }
         ]
       },
@@ -6583,6 +7329,102 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Plant Collecting",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "FruitHead"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FruitHead",
+                        "15",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FruitHead"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FruitCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "GreenFlatBar",
+                    "=",
+                    "Player.FruitCount",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -6641,7 +7483,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -6673,7 +7515,7 @@
           "isLocked": false,
           "name": "Collision",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
