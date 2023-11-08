@@ -962,6 +962,116 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/4037e5e9b8a1ede7cb20a326256ce5d9e9a5d94715303743595e97375ceaabaf_Flat Bar Green Fill Bar.png",
           "name": "Flat Bar Green Fill Bar.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Empty UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
+          "name": "tiled_Tiled Empty UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+          "name": "tiled_Tiled Filler UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tiled Filler UI Heart.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tiled Empty UI Heart.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tiled Empty UI Heart.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
+          "name": "Health Bar Box.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tiled Filler UI Heart.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1052,7 +1162,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.2201643882660955,
+        "zoomFactor": 3.299970618308498,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3264,15 +3374,124 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "layer": "UI",
+          "name": "BerryCounter",
+          "persistentUuid": "54d7ddda-14f5-4ef6-bbab-5e2c0bb998db",
+          "width": 48,
+          "x": 896,
+          "y": 10,
+          "zOrder": 2006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 40,
+          "layer": "UI",
+          "name": "FruitHead",
+          "persistentUuid": "4226989b-d666-445a-8e5e-7d0cd13f6f3b",
+          "width": 40,
+          "x": 847,
+          "y": 8,
+          "zOrder": 2007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "UI",
           "name": "GreenFlatBar",
-          "persistentUuid": "8724a072-7257-4741-9ea9-e94310d04277",
+          "persistentUuid": "6cae5e87-d721-4e36-b6d5-e1d322c1ade5",
           "width": 0,
-          "x": 707,
-          "y": 26,
-          "zOrder": 2005,
+          "x": 86,
+          "y": 66,
+          "zOrder": 2008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "HungerLabel",
+          "persistentUuid": "354d0f67-4f3e-4ba5-8cb9-f92bd3663210",
+          "width": 0,
+          "x": 8,
+          "y": 69,
+          "zOrder": 2009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "HealthLabel",
+          "persistentUuid": "8d4d95e7-8403-4587-aaf7-df2f28bbbff2",
+          "width": 0,
+          "x": 8,
+          "y": 29,
+          "zOrder": 2011,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 27,
+          "layer": "UI",
+          "name": "HealthBar",
+          "persistentUuid": "397c4a03-2d91-4de2-9d1c-9053266ff4be",
+          "width": 224,
+          "x": 86,
+          "y": 29,
+          "zOrder": 2012,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "CompostSprite",
+          "persistentUuid": "72c6058c-3844-4495-88f8-c57f380e6485",
+          "width": 0,
+          "x": 851,
+          "y": 51,
+          "zOrder": 2013,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "UI",
+          "name": "CompostCounter",
+          "persistentUuid": "6d85d5f8-1be7-4fc0-91c7-96b264ab8a12",
+          "width": 47,
+          "x": 896,
+          "y": 54,
+          "zOrder": 2014,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4819,7 +5038,7 @@
                 {
                   "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.027,
+                  "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6481,13 +6700,13 @@
           "behaviors": [],
           "content": {
             "PreviousHighValueDuration": 0,
-            "ShowLabel": true,
+            "ShowLabel": false,
             "BarTopPadding": 4,
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
             "MaxValue": 16,
-            "InitialValue": 0
+            "InitialValue": 16
           },
           "childrenContent": {
             "Background": {
@@ -6525,7 +6744,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "8 / 16",
+              "string": "Hunger",
               "font": "",
               "textAlignment": "center",
               "characterSize": 16,
@@ -6535,6 +6754,269 @@
                 "r": 255
               }
             }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "BerryCounter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HungerLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Hunger:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HealthLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Health:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+          "name": "HealthBar",
+          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "MaxValue": 16,
+            "InitialValue": 16,
+            "BarLeftPadding": 9,
+            "BarRightPadding": 9,
+            "BarBottomPadding": 3,
+            "BarTopPadding": 3,
+            "EasingDuration": 0.25,
+            "PreviousHighValueDuration": 0,
+            "ShowLabel": false
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 6,
+              "height": 15,
+              "leftMargin": 11,
+              "rightMargin": 11,
+              "texture": "Copper Bar Border.png",
+              "tiled": true,
+              "topMargin": 6,
+              "width": 96
+            },
+            "Buffer": {
+              "bottomMargin": 0,
+              "height": 8,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Framed Pixel Red Fill Bar.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "FillBar": {
+              "bottomMargin": 3,
+              "height": 8,
+              "leftMargin": 4,
+              "rightMargin": 4,
+              "texture": "Framed Pixel Red Fill Bar.png",
+              "tiled": false,
+              "topMargin": 3,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "16 / 16",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 8,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CompostSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 39
+                          },
+                          {
+                            "x": 1,
+                            "y": 39
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "CompostCounter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         }
       ],
@@ -6621,6 +7103,24 @@
           },
           {
             "objectName": "GreenFlatBar"
+          },
+          {
+            "objectName": "BerryCounter"
+          },
+          {
+            "objectName": "HungerLabel"
+          },
+          {
+            "objectName": "HealthLabel"
+          },
+          {
+            "objectName": "HealthBar"
+          },
+          {
+            "objectName": "CompostSprite"
+          },
+          {
+            "objectName": "CompostCounter"
           }
         ]
       },
@@ -7335,7 +7835,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Plant Collecting",
+          "name": "Plant Collecting, Composting and Planting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -7412,16 +7912,107 @@
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "GreenFlatBar",
+                    "BerryCounter",
+                    "Text",
                     "=",
-                    "Player.FruitCount",
-                    ""
+                    "Player.FruitCount"
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "FruitHead"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FruitHead",
+                        "15",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "p"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FruitCount",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BerryCounter",
+                    "Text",
+                    "=",
+                    "Player.FruitCount"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -9376,6 +9967,1633 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "User interface",
+      "extensionNamespace": "",
+      "fullName": "Resource bar (separated units)",
+      "helpPath": "/objects/resource-bar",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWRvdHMtaG9yaXpvbnRhbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNiwxMkEyLDIgMCAwLDEgMTgsMTBBMiwyIDAgMCwxIDIwLDEyQTIsMiAwIDAsMSAxOCwxNEEyLDIgMCAwLDEgMTYsMTJNMTAsMTJBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxNCwxMkEyLDIgMCAwLDEgMTIsMTRBMiwyIDAgMCwxIDEwLDEyTTQsMTJBMiwyIDAgMCwxIDYsMTBBMiwyIDAgMCwxIDgsMTJBMiwyIDAgMCwxIDYsMTRBMiwyIDAgMCwxIDQsMTJaIiAvPjwvc3ZnPg==",
+      "name": "TiledUnitsBar",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/063e9152cf65bc0f3be2a828afd950c3ecf1b1fc72feefdc2467252fe987dc0f_dots-horizontal.svg",
+      "shortDescription": "A bar that represents a resource in the game (health, mana, ammo, etc).",
+      "version": "1.1.2",
+      "description": [
+        "A bar that represents a resource in the game (health, mana, ammo, etc).",
+        "",
+        "There are ready-to-use resource bars in the asset-store [resource bars pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=resource-bars-resource-bars)."
+      ],
+      "origin": {
+        "identifier": "TiledUnitsBar",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "resource",
+        "bar",
+        "health",
+        "mana",
+        "shield",
+        "hearts",
+        "lives",
+        "ammo"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "q8ubdigLvIRXLxsJDDTaokO41mc2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
+          "fullName": "Resource bar",
+          "name": "ResourceBar",
+          "objectType": "",
+          "private": true,
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This is done after the events to allow users to read the previous value at the end of the change."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__ResourceBar.LastValueChange\"",
+                        "<=",
+                        "Object.Behavior::PropertyPreviousHighValueDuration()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::UpdatePreviousHighValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "="
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the value of the object.",
+              "fullName": "Value",
+              "functionType": "ExpressionAndCondition",
+              "name": "Value",
+              "sentence": "the value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Value",
+              "name": "SetValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::SetPropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "clamp(GetArgumentAsNumber(\"Value\"), 0, Object.Behavior::MaxValue())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "Object.Behavior::PreviousHighValue()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__ResourceBar.LastValueChange\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">=",
+                        "Object.Behavior::PropertyPreviousHighValue()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::UpdatePreviousHighValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the maximum value of the object.",
+              "fullName": "Maximum value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar configuration",
+              "name": "MaxValue",
+              "sentence": "the maximum value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMaxValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MaxValue",
+              "name": "SetMaxValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::SetPropertyMaxValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the bar is empty.",
+              "fullName": "Empty",
+              "functionType": "Condition",
+              "name": "IsEmpty",
+              "sentence": "_PARAM0_ bar is empty",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the bar is full.",
+              "fullName": "Full",
+              "functionType": "Condition",
+              "name": "IsFull",
+              "sentence": "_PARAM0_ bar is full",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::PropertyValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyMaxValue()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the previous high value of the resource bar before the current change.",
+              "fullName": "Previous high value",
+              "functionType": "ExpressionAndCondition",
+              "name": "PreviousHighValue",
+              "sentence": "the previous high value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyPreviousHighValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Force the previous resource value to update to the current one.",
+              "fullName": "Update previous value",
+              "functionType": "Action",
+              "name": "UpdatePreviousHighValue",
+              "sentence": "Update the previous resource value of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::SetPropertyPreviousHighValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the previous high value conservation duration (in seconds) of the object.",
+              "fullName": "Previous high value conservation duration",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar configuration",
+              "name": "PreviousHighValueDuration",
+              "sentence": "the previous high value conservation duration",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyPreviousHighValueDuration()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "PreviousHighValueDuration",
+              "name": "SetPreviousHighValueDuration",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::SetPropertyPreviousHighValueDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the resource value is changing.",
+              "fullName": "Value is changing",
+              "functionType": "Condition",
+              "name": "IsChanging",
+              "sentence": "_PARAM0_ value is changing",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::PreviousHighValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "Object.Behavior::PropertyValue()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__ResourceBar.LastValueChange\"",
+                        "<=",
+                        "Object.Behavior::PropertyPreviousHighValueDuration()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Value"
+            },
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Maximum value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MaxValue"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Previous high value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "PreviousHighValue"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Previous high value conservation duration (in seconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "PreviousHighValueDuration"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": [
+        {
+          "defaultName": "ResourceBar",
+          "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
+          "fullName": "Resource bar (separated units)",
+          "name": "TiledUnitsBar",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This allows to detect a change of \"intial value\" on hot reload."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetPropertyPreviousInitialValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Create the child-object instances."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Background",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bar",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "FillBar",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Background",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Bar",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TiledUnitsBar::TiledUnitsBar::PropertyShowBackground"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Background"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Pass the configuration to the behavior (MaxValue must be set before Value)."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetMaxValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyMaxValue()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onHotReloading",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::CenterBar"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetMaxValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyMaxValue()",
+                        "Object.PropertyMaxValue()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::PropertyInitialValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "!=",
+                        "Object.PropertyPreviousInitialValue()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetPropertyPreviousInitialValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.PropertyInitialValue()",
+                        "Object.PropertyInitialValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Resize",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Children instances must be resized when the button size change:\n- background is resized to take the full dimensions of the button\n- the bar size is refreshed according to the value\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Object.Width()",
+                                "!=",
+                                "max(Background.BoundingBoxRight(), Bar.BoundingBoxRight()) - min(Background.BoundingBoxLeft(), Bar.BoundingBoxLeft())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Object.Height()",
+                                "!=",
+                                "max(Background.BoundingBoxBottom(), Bar.BoundingBoxBottom()) - min(Background.BoundingBoxTop(), Bar.BoundingBoxTop())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Background",
+                            "Width",
+                            "=",
+                            "Object.Width()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Background",
+                            "Height",
+                            "=",
+                            "Object.Height()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TiledUnitsBar::Scale"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Width"
+                          },
+                          "parameters": [
+                            "Background",
+                            "=",
+                            "Background.Variable(Width)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Height"
+                          },
+                          "parameters": [
+                            "Background",
+                            "=",
+                            "Background.Variable(Height)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TiledUnitsBar::TiledUnitsBar::CenterBar"
+                          },
+                          "parameters": [
+                            "Object",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Center the bar according to the button configuration. This is used in doStepPostEvents when the button is resized.",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "CenterBar",
+              "private": true,
+              "sentence": "Center the bar of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Bar",
+                        "=",
+                        "Background.CenterX()",
+                        "=",
+                        "Background.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Bar",
+                        "+",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Bar",
+                        "+",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "=",
+                        "Bar.X()",
+                        "=",
+                        "Bar.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the value of the object.",
+              "fullName": "Value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar",
+              "name": "Value",
+              "sentence": "the value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FillBar.ResourceBar::Value()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Value",
+              "name": "SetValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::SetValue"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "ResourceBar",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TiledSpriteObject::Width"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "=",
+                        "FillBar.ResourceBar::Value() * Object.PropertyUnitWidth()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the maximum value of the object.",
+              "fullName": "Maximum value",
+              "functionType": "ExpressionAndCondition",
+              "group": "Resource bar configuration",
+              "name": "MaxValue",
+              "sentence": "the maximum value",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FillBar.ResourceBar::PropertyMaxValue()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MaxValue",
+              "name": "SetMaxValue",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::SetMaxValue"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "ResourceBar",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TiledSpriteObject::Width"
+                      },
+                      "parameters": [
+                        "Bar",
+                        "=",
+                        "Object.PropertyMaxValue() * Object.PropertyUnitWidth()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::CenterBar"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TiledUnitsBar::ResourceBar",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the bar is empty.",
+              "fullName": "Empty",
+              "functionType": "Condition",
+              "group": "Resource bar",
+              "name": "IsEmpty",
+              "sentence": "_PARAM0_ bar is empty",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::IsEmpty"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "ResourceBar",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the bar is full.",
+              "fullName": "Full",
+              "functionType": "Condition",
+              "group": "Resource bar",
+              "name": "IsFull",
+              "sentence": "_PARAM0_ bar is full",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TiledUnitsBar::ResourceBar::IsFull"
+                      },
+                      "parameters": [
+                        "FillBar",
+                        "ResourceBar",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Maximum value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MaxValue"
+            },
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Initial value",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "InitialValue"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "It's used to detect a change at hot reload.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "PreviousInitialValue"
+            },
+            {
+              "value": "24",
+              "type": "Number",
+              "label": "Unit width",
+              "description": "How much pixels to show for a value of 1.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "UnitWidth"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Show the background",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Background"
+              ],
+              "hidden": false,
+              "name": "ShowBackground"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bar left margin",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "FillBar",
+                "Bar"
+              ],
+              "hidden": false,
+              "name": "BarLeftPadding"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bar right margin",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "FillBar",
+                "Bar"
+              ],
+              "hidden": false,
+              "name": "BarRightPadding"
+            },
+            {
+              "value": "Center",
+              "type": "String",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "FillBar",
+                "Bar"
+              ],
+              "hidden": true,
+              "name": "BarVerticalAnchorOrigin"
+            },
+            {
+              "value": "Center",
+              "type": "String",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "Background"
+              ],
+              "hidden": true,
+              "name": "BarVerticalAnchorTarget"
+            }
+          ],
+          "objects": [
+            {
+              "assetStoreId": "",
+              "height": 32,
+              "name": "FillBar",
+              "texture": "",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ResourceBar",
+                  "type": "TiledUnitsBar::ResourceBar",
+                  "Value": 1,
+                  "MaxValue": 3,
+                  "PreviousValue": 0
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "height": 32,
+              "name": "Bar",
+              "texture": "",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Background",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Bar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "author": "",
       "category": "Input",
