@@ -1072,6 +1072,60 @@
         "name": "NewSprite2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/leftCorner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "leftCorner",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/rightCorner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "rightCorner",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1140,7 +1194,14 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1162,7 +1223,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.7669649888474007,
+        "zoomFactor": 2.6163068001160896,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2818,7 +2879,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "39790d94-fc38-429b-98d7-3e0c34f3d3ab",
           "width": 19,
           "x": 450,
@@ -2834,7 +2895,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "f9871c4f-76e0-4540-8081-d03683ac93b6",
           "width": 19,
           "x": 415,
@@ -2866,7 +2927,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "e6fd118e-7d80-40bc-b065-befcd5b18a32",
           "width": 19,
           "x": 382,
@@ -2898,7 +2959,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "c665331e-e092-4c7a-a055-a794f12cf5d5",
           "width": 19,
           "x": 350,
@@ -2930,7 +2991,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "252773b6-3d44-446f-a01b-2c8dcbea3f61",
           "width": 19,
           "x": 314,
@@ -2962,7 +3023,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "a1c6e6c8-32f6-42ec-b182-68e0e815bf9b",
           "width": 19,
           "x": 278,
@@ -2994,7 +3055,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "06da611d-b36e-43ae-b1c5-be5076e8ef98",
           "width": 19,
           "x": 314,
@@ -3026,7 +3087,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "4324e84f-2527-4687-8d36-0d8bc99e2796",
           "width": 19,
           "x": 350,
@@ -3058,7 +3119,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "f24c4631-654b-4aa5-9d92-4444515d8c48",
           "width": 19,
           "x": 382,
@@ -3090,7 +3151,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "a088d167-be1d-4890-9985-f7c3d32d55c8",
           "width": 19,
           "x": 415,
@@ -3122,7 +3183,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "1388a6a1-29c7-460a-b1b2-878100e4c856",
           "width": 19,
           "x": 450,
@@ -3154,7 +3215,7 @@
           "depth": 1,
           "height": 19,
           "layer": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "persistentUuid": "3255755b-6a67-497f-8ee7-837be76aa5d8",
           "width": 19,
           "x": 278,
@@ -3510,6 +3571,597 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "UI",
+          "name": "ScoreCounter",
+          "persistentUuid": "c12d7cd7-4de1-475c-90b3-70bfa5f9584e",
+          "width": 155,
+          "x": 501,
+          "y": 2,
+          "zOrder": 2016,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "ScoreLabel",
+          "persistentUuid": "aa226106-7a68-4856-9869-d9bdf039c16a",
+          "width": 0,
+          "x": 431,
+          "y": 2,
+          "zOrder": 2017,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "dc8f008e-310c-478d-a2f9-230a9294a391",
+          "width": 0,
+          "x": 493,
+          "y": 55,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "d394b827-2940-47d3-bf41-6483162c50ce",
+          "width": 0,
+          "x": 431,
+          "y": 55,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "d4826cd8-4569-4c9c-b467-341504df7e52",
+          "width": 0,
+          "x": 403,
+          "y": 55,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "4f1be03a-0382-45bb-b7a6-ce4d50fc655b",
+          "width": 0,
+          "x": 403,
+          "y": 77,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "a66722fe-feb5-42e3-8377-f25838f38b5f",
+          "width": 0,
+          "x": 403,
+          "y": 96,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "eabe3433-6092-4395-a223-d41f504852d1",
+          "width": 0,
+          "x": 493,
+          "y": 73,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "ee19b40d-1f21-4ce8-920d-6f85d3d66e8d",
+          "width": 0,
+          "x": 493,
+          "y": 119,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "95cfb5a1-7f20-4328-a1b0-ac6f5e63a471",
+          "width": 0,
+          "x": 493,
+          "y": 95,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "dfc426b0-cc7d-4ddc-b852-36aa228c2f84",
+          "width": 0,
+          "x": 403,
+          "y": 119,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "",
+          "name": "rearWall",
+          "persistentUuid": "933623af-7846-44e5-8daf-59d939f3a83e",
+          "width": 84,
+          "x": 414,
+          "y": 39,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 82,
+          "layer": "",
+          "name": "LeftWall",
+          "persistentUuid": "229083e4-5dc8-4263-b4d5-aa50f4fa27ad",
+          "width": 5,
+          "x": 398,
+          "y": 55,
+          "zOrder": 2020,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "LeftCorner",
+          "persistentUuid": "fa48cf18-19c7-4af8-ba5b-1f3ec97567a9",
+          "width": 0,
+          "x": 398,
+          "y": 39,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "rightCorner",
+          "persistentUuid": "a06ad9ba-d642-4538-877b-bb0d7f6dc2cd",
+          "width": 0,
+          "x": 498,
+          "y": 39,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "layer": "",
+          "name": "RightWall",
+          "persistentUuid": "3e2caff4-ee21-4a1e-8564-28850b38c1ac",
+          "width": 5,
+          "x": 509,
+          "y": 55,
+          "zOrder": 2023,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "",
+          "name": "rearWall",
+          "persistentUuid": "7f9c8d57-72f1-420d-907c-ad8ff69cc3de",
+          "width": 44,
+          "x": 470,
+          "y": 135,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "",
+          "name": "rearWall",
+          "persistentUuid": "d1281772-a5c2-4a24-9a90-b96a16b92fa6",
+          "width": 47,
+          "x": 398,
+          "y": 135,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "0a744f7c-1daf-4fc0-bd61-cc4e0413a7f8",
+          "width": 44,
+          "x": 470,
+          "y": 135,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "0ad05076-f5f1-42c5-9e24-a707f471cce1",
+          "width": 47,
+          "x": 398,
+          "y": 135,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "748b037a-8630-4800-8c3c-8340b32d7284",
+          "width": 115,
+          "x": 398,
+          "y": 39,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "4d7f9e7c-5092-42e5-8910-79bf03abf1b3",
+          "width": 5,
+          "x": 509,
+          "y": 49,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "e5afd52d-0bac-4bc4-864c-130b0a75d9b5",
+          "width": 5,
+          "x": 398,
+          "y": 49,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "farmland",
+          "persistentUuid": "d2b6bc3c-2bc9-450a-b87d-9fd2f44a929c",
+          "width": 0,
+          "x": 464,
+          "y": 55,
+          "zOrder": 2018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "13fecdfb-4e88-4f5d-baaf-4d2cdbcd5ca8",
+          "width": 0,
+          "x": 493,
+          "y": 119,
+          "zOrder": 2025,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "a94eb225-ad43-45a5-bb7a-551b906a3459",
+          "width": 0,
+          "x": 493,
+          "y": 95,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "c7e1c5d8-b370-4557-8b4c-de50376b7e28",
+          "width": 0,
+          "x": 493,
+          "y": 73,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "010d6f4a-9a31-4862-abf6-fbd2e3081577",
+          "width": 0,
+          "x": 493,
+          "y": 55,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "f3df09cc-3c80-4076-a36a-f1277de31f9e",
+          "width": 0,
+          "x": 464,
+          "y": 55,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "df5b0493-71d0-444c-8028-a23d2dd68bfe",
+          "width": 0,
+          "x": 431,
+          "y": 55,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "6bd21585-5d07-43af-b6df-1495488956b8",
+          "width": 0,
+          "x": 403,
+          "y": 55,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "c155611d-b8a2-4be4-9bfc-d42eb8f2a75e",
+          "width": 0,
+          "x": 403,
+          "y": 96,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "0df4ba0a-5b12-41c0-baee-31a4e9e03765",
+          "width": 0,
+          "x": 403,
+          "y": 119,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FruitHead",
+          "persistentUuid": "bfb904e6-861e-46dd-9edd-83b47d50e96f",
+          "width": 0,
+          "x": 403,
+          "y": 77,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "growVal",
+              "type": "number",
+              "value": -1
+            }
+          ]
         }
       ],
       "objects": [
@@ -3543,6 +4195,12 @@
               "name": "Hunger",
               "type": "number",
               "value": 16
+            },
+            {
+              "folded": true,
+              "name": "Score",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -4709,7 +5367,7 @@
             }
           ],
           "content": {
-            "text": "Press \"E\" to gather food! \n\n(What is \"E\"?)",
+            "text": "Press E to gather food.\nPress C to compost.\nPress K to eat.\nPress P to plant...\n\nWhat does any of that mean?",
             "opacity": 255,
             "scale": 1.5,
             "fontSize": 20,
@@ -6673,7 +7331,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "farmland",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7079,6 +7737,229 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreCounter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Score:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "rearWall",
+          "texture": "New image",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "LeftWall",
+          "texture": "New image2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 5,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LeftCorner",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "leftCorner",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "leftCorner",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "rightCorner",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "rightCorner",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "rightCorner",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "RightWall",
+          "texture": "New image3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 5,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -7160,7 +8041,7 @@
             "objectName": "FruitHead"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "farmland"
           },
           {
             "objectName": "GreenFlatBar"
@@ -7185,12 +8066,32 @@
           },
           {
             "objectName": "temp"
+          },
+          {
+            "objectName": "ScoreCounter"
+          },
+          {
+            "objectName": "ScoreLabel"
+          },
+          {
+            "objectName": "rearWall"
+          },
+          {
+            "objectName": "LeftWall"
+          },
+          {
+            "objectName": "LeftCorner"
+          },
+          {
+            "objectName": "rightCorner"
+          },
+          {
+            "objectName": "RightWall"
           }
         ]
       },
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7268,9 +8169,45 @@
                 "Player",
                 "\"playerTime\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"totalTime\""
+              ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "FruitHead",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "FruitHead",
+                    "growVal",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FruitHead"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7332,6 +8269,55 @@
                 "",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "RepeatEveryXSeconds::Repeat"
+              },
+              "parameters": [
+                "",
+                "\"totalTime\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "ObjectTimerPaused"
+              },
+              "parameters": [
+                "Player",
+                "\"totalTime\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreCounter",
+                "Text",
+                "=",
+                "Score"
               ]
             }
           ]
@@ -7593,7 +8579,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7663,6 +8648,24 @@
                   },
                   "parameters": [
                     "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"totalTime\""
                   ]
                 }
               ]
@@ -7781,54 +8784,6 @@
                             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
                           },
                           "parameters": [
-                            "YesButton",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-                          },
-                          "parameters": [
-                            "Transition",
-                            "FlashTransitionPainter",
-                            "\"0;0;0\"",
-                            "1",
-                            "\"Circular\"",
-                            "\"Forward\"",
-                            "255",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PushScene"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Battle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                          },
-                          "parameters": [
                             "OKButton",
                             ""
                           ]
@@ -7842,6 +8797,24 @@
                           "parameters": [
                             "",
                             "\"Dialogue\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"playerTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"totalTime\""
                           ]
                         }
                       ]
@@ -8464,6 +9437,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Health System",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8584,6 +9558,42 @@
                   "parameters": [
                     "Player",
                     "\"playerTime\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"totalTime\""
                   ]
                 }
               ]
@@ -10541,6 +11551,551 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "VegeTato, arthuro555",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "Repeat every X seconds",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
+      "name": "RepeatEveryXSeconds",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
+      "shortDescription": "This allows to trigger an event every X seconds.",
+      "version": "0.1.0",
+      "description": "Convenience conditions, actions and behaviors for timers to trigger a condition every X seconds.",
+      "origin": {
+        "identifier": "RepeatEveryXSeconds",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "repeat",
+        "timer",
+        "time",
+        "convenience"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1",
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Triggers every X seconds.",
+          "fullName": "Repeat every X seconds",
+          "functionType": "Condition",
+          "name": "Repeat",
+          "sentence": "Repeat timer _PARAM1_ every _PARAM2_ seconds",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsString(\"timerName\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsNumber(\"time\")",
+                    "GetArgumentAsString(\"timerName\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsString(\"timerName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The name of the timer to loop",
+              "name": "timerName",
+              "type": "string"
+            },
+            {
+              "description": "The time in seconds between each trigger",
+              "name": "time",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Triggers every X seconds X amount of times.",
+          "fullName": "Repeat every X seconds in X number",
+          "functionType": "Condition",
+          "name": "RepeatXTimes",
+          "sentence": "Repeat timer _PARAM1_ every _PARAM2_ seconds _PARAM3_ times",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsString(\"timerName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds_.Counter[GetArgumentAsString(\"timerName\")]",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsNumber(\"time\")",
+                    "GetArgumentAsString(\"timerName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "GetArgumentAsNumber(\"limit\")",
+                        "=",
+                        "-1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "__RepeatEveryXSeconds_.Counter[GetArgumentAsString(\"timerName\")]",
+                        "<",
+                        "GetArgumentAsNumber(\"limit\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsString(\"timerName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds_.Counter[GetArgumentAsString(\"timerName\")]",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The name of the timer to loop",
+              "name": "timerName",
+              "type": "string"
+            },
+            {
+              "description": "The time in seconds between each trigger",
+              "name": "time",
+              "type": "expression"
+            },
+            {
+              "description": "The limit of loops",
+              "longDescription": "The condition will trigger at most this amount of times. Make it -1 for looping forever.",
+              "name": "limit",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allows to repeat an object timer every X seconds.",
+          "fullName": "Repeat every X seconds",
+          "name": "RepeatTimer",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyTimerName()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds, where X is defined in the behavior properties.",
+              "fullName": "Repeat every X seconds",
+              "functionType": "Condition",
+              "name": "Repeat",
+              "sentence": "Recurring timer _PARAM1_ of _PARAM0_ has triggered",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyTimerName()",
+                        "Object.Behavior::PropertyTimerLength()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::PropertyLimit"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::PropertyCounter"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "Object.Behavior::PropertyLimit()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyTimerName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::SetPropertyCounter"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pauses a recurring timer.",
+              "fullName": "Pause a recurring timer",
+              "functionType": "Action",
+              "name": "Pause",
+              "sentence": "Pause recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyTimerName()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Resumes a paused recurring timer.",
+              "fullName": "Resume a recurring timer",
+              "functionType": "Action",
+              "name": "Resume",
+              "sentence": "Resume recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertyTimerName()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Allows to trigger the recurring timer X times again.",
+              "fullName": "Reset the limit",
+              "functionType": "Action",
+              "name": "ResetLimit",
+              "sentence": "Allow to trigger the recurring timer _PARAM1_ of _PARAM0_ X times again",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::SetPropertyCounter"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "MyTimer",
+              "type": "String",
+              "label": "The name of the timer to repeat",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "TimerName"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "The time between each trigger (in seconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "TimerLength"
+            },
+            {
+              "value": "-1",
+              "type": "Number",
+              "label": "How many times should the timer trigger? -1 for forever.",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Limit"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "An internal counter",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Counter"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "User interface",
