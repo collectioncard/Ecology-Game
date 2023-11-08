@@ -1126,6 +1126,43 @@
         "name": "New image3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 4\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.01,\\\"sustainPunch\\\":0,\\\"decay\\\":0.01,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":700,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":55,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GateClosed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/GateClosed.png\"}",
+        "name": "GateClosed",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GateClosed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/GateClosed2.png\"}",
+        "name": "GateClosed2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GateTop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GateTop",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1223,7 +1260,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.180362185748435,
+        "zoomFactor": 0.9673796392515837,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2058,7 +2095,7 @@
           "depth": 1,
           "height": 192,
           "layer": "Dialogue",
-          "name": "Dialogue",
+          "name": "InsDialogue",
           "persistentUuid": "caf097a8-67e7-4d4e-b372-23ef93794341",
           "width": 426,
           "x": 277,
@@ -3567,8 +3604,8 @@
           "name": "temp",
           "persistentUuid": "e107417d-bbef-4c8d-8b4e-1a45b0d2ba2e",
           "width": 0,
-          "x": 455,
-          "y": 281,
+          "x": 39,
+          "y": -208,
           "zOrder": 2015,
           "numberProperties": [],
           "stringProperties": [],
@@ -3615,7 +3652,7 @@
           "width": 0,
           "x": 493,
           "y": 55,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3630,7 +3667,7 @@
           "width": 0,
           "x": 431,
           "y": 55,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3645,7 +3682,7 @@
           "width": 0,
           "x": 403,
           "y": 55,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3660,7 +3697,7 @@
           "width": 0,
           "x": 403,
           "y": 77,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3675,7 +3712,7 @@
           "width": 0,
           "x": 403,
           "y": 96,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3690,7 +3727,7 @@
           "width": 0,
           "x": 493,
           "y": 73,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3705,7 +3742,7 @@
           "width": 0,
           "x": 493,
           "y": 119,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3720,7 +3757,7 @@
           "width": 0,
           "x": 493,
           "y": 95,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3735,7 +3772,7 @@
           "width": 0,
           "x": 403,
           "y": 119,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3940,7 +3977,7 @@
           "width": 0,
           "x": 464,
           "y": 55,
-          "zOrder": 2018,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4164,6 +4201,519 @@
               "value": -1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AreaOneGuard",
+          "persistentUuid": "9c864fa7-0624-4630-bfeb-6873e89b71f0",
+          "width": 0,
+          "x": 484,
+          "y": 158,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 276,
+          "layer": "Field1Dialogue",
+          "name": "TextBorder",
+          "persistentUuid": "7c1c8466-c8e9-4d33-9de0-4c6baaab8f64",
+          "width": 450,
+          "x": 259,
+          "y": 255,
+          "zOrder": 2028,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "layer": "Field1Dialogue",
+          "name": "Field1Dialogue",
+          "persistentUuid": "da3b0fc7-5e1c-49cc-9b72-d6da4080ce4e",
+          "width": 440,
+          "x": 274,
+          "y": 264,
+          "zOrder": 2029,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 21,
+          "layer": "Field1Dialogue",
+          "name": "NoButton",
+          "persistentUuid": "8ddaefe6-536a-4e74-8ae2-a6d3edda6fd8",
+          "width": 50,
+          "x": 353,
+          "y": 504,
+          "zOrder": 2030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 26,
+          "layer": "Field1Dialogue",
+          "name": "OKButton",
+          "persistentUuid": "c593bbbc-5c63-47fb-9973-e92095e5cfc4",
+          "width": 50,
+          "x": 488,
+          "y": 499,
+          "zOrder": 2031,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 23,
+          "layer": "",
+          "name": "Gate1",
+          "persistentUuid": "84149973-078c-4ba3-bd47-982c86f37ff7",
+          "width": 25,
+          "x": 445,
+          "y": 128,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Collision",
+          "name": "Gate1Coll",
+          "persistentUuid": "8122365e-8bc6-4908-abe0-dafd49b7e72c",
+          "width": 0,
+          "x": 450,
+          "y": 135,
+          "zOrder": 2033,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 23,
+          "layer": "",
+          "name": "GateTop",
+          "persistentUuid": "36984700-f5d0-4788-8679-ed2c2d893ba2",
+          "width": 25,
+          "x": 445,
+          "y": 128,
+          "zOrder": 2034,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "Gate1Coll",
+          "persistentUuid": "57aa97d7-f1bb-4ffe-a206-bf4f082c317c",
+          "width": 14,
+          "x": 477,
+          "y": 144,
+          "zOrder": 2035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "e823f006-60a2-402e-87e9-d38c0cd1fc78",
+          "width": 14,
+          "x": 494,
+          "y": 119,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "4df1ad6c-08dc-4838-94b5-00e50f1fb721",
+          "width": 14,
+          "x": 404,
+          "y": 119,
+          "zOrder": 2004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "819772b9-f9c4-4106-994a-d7c604d31d61",
+          "width": 14,
+          "x": 494,
+          "y": 95,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "42273627-84d8-4b24-9763-614a802543bd",
+          "width": 14,
+          "x": 494,
+          "y": 73,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "f0ad1c8e-c90d-4ab1-9a83-6dbcefa2376f",
+          "width": 14,
+          "x": 494,
+          "y": 55,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "a41c9f44-5dd4-49d9-b893-d861c4fd4541",
+          "width": 14,
+          "x": 465,
+          "y": 55,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "32cc3df3-d000-4262-9c12-f021b187437d",
+          "width": 14,
+          "x": 432,
+          "y": 55,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "33728dfc-d488-4cd9-86ff-dcb623954a60",
+          "width": 14,
+          "x": 404,
+          "y": 55,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "afc6dc7b-f87a-406b-a6ec-9de21c869f1d",
+          "width": 14,
+          "x": 404,
+          "y": 77,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "c39dd611-087d-4245-a1cb-b765fd894905",
+          "width": 14,
+          "x": 404,
+          "y": 96,
+          "zOrder": 2036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "94c6279d-d507-4c76-ab5c-6cdbc8eec525",
+          "width": 0,
+          "x": 385,
+          "y": 118,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "391a0852-96bc-4a5e-97ce-adb3853d6877",
+          "width": 0,
+          "x": 385,
+          "y": 134,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Bush1",
+          "persistentUuid": "e49a72dc-7732-4a0f-945b-74d7e4767b67",
+          "width": 0,
+          "x": 385,
+          "y": 150,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "537ca3dd-830c-4145-b674-aaad087afdd6",
+          "width": 16,
+          "x": 377,
+          "y": 112,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree2",
+          "persistentUuid": "0f30df66-ad5b-4d56-b645-b501ffdcebac",
+          "width": 0,
+          "x": 268,
+          "y": 80,
+          "zOrder": 2037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree2",
+          "persistentUuid": "72fe7b88-57c3-4b40-a0e4-195371981e6c",
+          "width": 0,
+          "x": 347,
+          "y": 94,
+          "zOrder": 2038,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree2",
+          "persistentUuid": "12f19a0e-6770-4725-bfea-0f9740f9d5d9",
+          "width": 0,
+          "x": 257,
+          "y": 137,
+          "zOrder": 2039,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree2",
+          "persistentUuid": "4aa62626-d0d2-4b3d-bd95-9a0abe963762",
+          "width": 0,
+          "x": 309,
+          "y": 143,
+          "zOrder": 2040,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "f8a89937-fc8f-4f8b-b4e2-3d0d70e00a10",
+          "width": 0,
+          "x": 306,
+          "y": 95,
+          "zOrder": 2041,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "a78c5684-4d2f-48ed-b45f-0a8dea8840cb",
+          "width": 0,
+          "x": 301,
+          "y": 129,
+          "zOrder": 2042,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "29cf9343-ad02-42af-ac00-5ecce2cbf81c",
+          "width": 0,
+          "x": 249,
+          "y": 123,
+          "zOrder": 2043,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "6f4a66f7-8d35-47b5-8d01-02275e884323",
+          "width": 0,
+          "x": 339,
+          "y": 80,
+          "zOrder": 2044,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "ad234239-0e17-4c9e-8c85-2d6eee3298b3",
+          "width": 0,
+          "x": 260,
+          "y": 66,
+          "zOrder": 2045,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "0acaa247-8e58-4bee-aa67-2c1f6347715f",
+          "width": 28,
+          "x": 292,
+          "y": 81,
+          "zOrder": 2046,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5355,7 +5905,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Dialogue",
+          "name": "InsDialogue",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
@@ -5456,7 +6006,7 @@
         },
         {
           "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-          "name": "YesButton",
+          "name": "NoButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -5496,7 +6046,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Yes",
+              "string": "No",
               "font": "",
               "textAlignment": "left",
               "characterSize": 20,
@@ -7962,6 +8512,389 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "AreaOneGuard",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ACharDown1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Field1Dialogue",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "I can't get the plants in my field to grow! Maybe some compost would help?\n\nI'll let you in if you give me 10 fruit.",
+            "opacity": 255,
+            "scale": 1.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Gate1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Gate",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GateClosed",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GateClosed2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Gate1Coll",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Enemy_Spawn_Location.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Gate2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Gate",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GateClosed",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GateClosed2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "GateTop",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "GateTop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GateTop",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 4
+                          },
+                          {
+                            "x": 0,
+                            "y": 4
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7972,6 +8905,9 @@
           },
           {
             "objectName": "NPC"
+          },
+          {
+            "objectName": "AreaOneGuard"
           },
           {
             "objectName": "Dock1"
@@ -8019,7 +8955,13 @@
             "objectName": "CollisionDetect"
           },
           {
-            "objectName": "Dialogue"
+            "objectName": "Gate1Coll"
+          },
+          {
+            "objectName": "InsDialogue"
+          },
+          {
+            "objectName": "Field1Dialogue"
           },
           {
             "objectName": "E"
@@ -8028,7 +8970,7 @@
             "objectName": "E2"
           },
           {
-            "objectName": "YesButton"
+            "objectName": "NoButton"
           },
           {
             "objectName": "OKButton"
@@ -8089,6 +9031,15 @@
           },
           {
             "objectName": "RightWall"
+          },
+          {
+            "objectName": "Gate1"
+          },
+          {
+            "objectName": "Gate2"
+          },
+          {
+            "objectName": "GateTop"
           }
         ]
       },
@@ -8180,6 +9131,26 @@
                 "Player",
                 "\"totalTime\""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Gate1",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Gate1",
+                "Animation",
+                "=",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -8248,6 +9219,16 @@
               "parameters": [
                 "Player",
                 "CollisionDetect",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "Gate1Coll",
                 ""
               ]
             },
@@ -8329,7 +9310,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlayerMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8385,7 +9365,7 @@
                         "value": "Cache"
                       },
                       "parameters": [
-                        "YesButton"
+                        "NoButton"
                       ]
                     },
                     {
@@ -8581,7 +9561,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Dialogue",
+          "name": "Instruction Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -8703,7 +9683,7 @@
                         "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
                       },
                       "parameters": [
-                        "Dialogue",
+                        "InsDialogue",
                         "BitmapText_AutoTyping",
                         ""
                       ]
@@ -8740,7 +9720,7 @@
                         "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
                       },
                       "parameters": [
-                        "Dialogue",
+                        "InsDialogue",
                         "BitmapText_AutoTyping",
                         ""
                       ]
@@ -8846,7 +9826,498 @@
                             "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
                           },
                           "parameters": [
-                            "YesButton",
+                            "NoButton",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "HoverSound.wav",
+                        "",
+                        "20",
+                        "RandomFloatInRange(0.8,0.9)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Field 1 Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"A\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "AreaOneGuard",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Field1Dialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"playerTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"totalTime\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Field1Dialogue\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
+                      },
+                      "parameters": [
+                        "Field1Dialogue",
+                        "BitmapText_AutoTyping",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Talk.wav",
+                        "",
+                        "50",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "InsDialogue",
+                        "BitmapText_AutoTyping",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "OKButton",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "NoButton",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "OKButton"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                          },
+                          "parameters": [
+                            "OKButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Player",
+                            "FruitCount",
+                            ">=",
+                            "10"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Field1Dialogue\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Player",
+                            "FruitCount",
+                            "-",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"playerTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"totalTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "Player",
+                            "TopDownMovement",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Gate1Coll",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                          },
+                          "parameters": [
+                            "Gate1",
+                            "Animation"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "BerryCounter",
+                            "Text",
+                            "=",
+                            "Player.FruitCount"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "AreaOneGuard",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                          },
+                          "parameters": [
+                            "OKButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Player",
+                            "FruitCount",
+                            ">=",
+                            "10"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "New sound effect",
+                            "",
+                            "100",
+                            ".5"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "NoButton"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                          },
+                          "parameters": [
+                            "NoButton",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Field1Dialogue\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"playerTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"totalTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "Player",
+                            "TopDownMovement",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+                          },
+                          "parameters": [
+                            "OKButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+                          },
+                          "parameters": [
+                            "NoButton",
                             ""
                           ]
                         }
@@ -9439,7 +10910,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Health System",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9643,6 +11113,22 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Dialogue",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Field1Dialogue",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
