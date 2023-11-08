@@ -1260,7 +1260,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.9673796392515837,
+        "zoomFactor": 3.411246716812995,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3480,8 +3480,8 @@
           "layer": "UI",
           "name": "BerryCounter",
           "persistentUuid": "54d7ddda-14f5-4ef6-bbab-5e2c0bb998db",
-          "width": 48,
-          "x": 896,
+          "width": 64,
+          "x": 885,
           "y": 10,
           "zOrder": 2006,
           "numberProperties": [],
@@ -3497,7 +3497,7 @@
           "name": "FruitHead",
           "persistentUuid": "4226989b-d666-445a-8e5e-7d0cd13f6f3b",
           "width": 40,
-          "x": 847,
+          "x": 840,
           "y": 8,
           "zOrder": 2007,
           "numberProperties": [],
@@ -3573,7 +3573,7 @@
           "name": "CompostSprite",
           "persistentUuid": "72c6058c-3844-4495-88f8-c57f380e6485",
           "width": 0,
-          "x": 851,
+          "x": 844,
           "y": 51,
           "zOrder": 2013,
           "numberProperties": [],
@@ -3588,8 +3588,8 @@
           "layer": "UI",
           "name": "CompostCounter",
           "persistentUuid": "6d85d5f8-1be7-4fc0-91c7-96b264ab8a12",
-          "width": 47,
-          "x": 896,
+          "width": 63,
+          "x": 885,
           "y": 54,
           "zOrder": 2014,
           "numberProperties": [],
@@ -10568,7 +10568,7 @@
                     "CompostCounter",
                     "Text",
                     "=",
-                    "Player.CompostCount"
+                    "ToString(floorTo(Player.CompostCount,2))"
                   ]
                 },
                 {
@@ -10637,8 +10637,8 @@
                   "parameters": [
                     "Player",
                     "CompostCount",
-                    "+",
-                    "1"
+                    "=",
+                    "floorTo(( Player.CompostCount + RandomFloatInRange(.9, 1.3)), 2)"
                   ]
                 },
                 {
